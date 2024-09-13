@@ -1,0 +1,9 @@
+# Cooldown time in seconds
+cooldown: 60
+
+messages:
+  no-permission: "&cYou don't have permission to use this command."
+  usage: "&cUsage: /tp <x> <y> <z>"
+  cooldown: "&cYou must wait %time% seconds before using this command again."
+  teleported: "&aYou have been teleported to &e%x% %y% %z%&a."
+  invalid-coordinates: "&cInvalid coordinates. Please use numbers for x, y, and z."

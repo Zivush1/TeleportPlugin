@@ -1,0 +1,13 @@
+name: TeleportPlugin
+version: '${project.version}'
+main: me.zivush.teleportplugin.TeleportPlugin
+api-version: '1.20'
+commands:
+  tp:
+    description: Teleport to a specific location
+    usage: /<command> <x> <y> <z>
+permissions:
+  teleportplugin.tp:
+    description: Allows players to use the /tp command
+    default: op
+
